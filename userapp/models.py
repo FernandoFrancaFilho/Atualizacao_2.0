@@ -12,6 +12,9 @@ class Periodo(Enum):
     QUINZE_MESES = '15 meses'
     DEZOITO_MESES = '18 meses' 
     VINTE_QUATRO_MESES = '24 meses'
+    TRINTA_MESES= '30 meses'
+    TRINTA_SEIS_MESES= '36 meses' 
+    QUARENTA_DOIS_MESES= '42 meses'
     
 class Crianca(models.Model):
     nomeDaCrianca = models.CharField(max_length=150)
