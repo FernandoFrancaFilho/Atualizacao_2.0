@@ -190,6 +190,7 @@ class Consulta (models.Model):
     idAgendamento = models.ForeignKey(Agendamento, on_delete=models.CASCADE)
     tempoConsulta = models.CharField(max_length=20) #Colocar meses
     id_crianca = models.ForeignKey(Crianca, on_delete=models.CASCADE)
+    data = models.CharField(max_length=255)
 
 
 # Vacina
